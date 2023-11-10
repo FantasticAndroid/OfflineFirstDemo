@@ -1,0 +1,73 @@
+[versions]
+agp = "8.1.2"
+org-jetbrains-kotlin-android = "1.8.10"
+core-ktx = "1.12.0"
+junit = "4.13.2"
+androidx-test-ext-junit = "1.1.5"
+espresso-core = "3.5.1"
+lifecycle-runtime-ktx = "2.6.2"
+activity-compose = "1.8.0"
+compose-bom = "2023.10.01"
+dagger-hilt = "2.48.1"
+retrofit-api = "2.9.0"
+okhttp3 = "4.10.0"
+glide = "4.14.2"
+appcompat = "1.6.1"
+material = "1.10.0"
+okhttpprofiler = "1.0.8"
+room = "2.6.0"
+constraintlayout = "2.1.4"
+activity-ktx = "1.8.0"
+recyclerview = "1.3.2"
+cardview = "1.0.0"
+
+[libraries]
+core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-test-ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidx-test-ext-junit" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso-core" }
+lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycle-runtime-ktx" }
+activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activity-compose" }
+compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "compose-bom" }
+ui = { group = "androidx.compose.ui", name = "ui" }
+ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+material3 = { group = "androidx.compose.material3", name = "material3" }
+
+dagger-hilt = {group = "com.google.dagger", name ="hilt-android" , version.ref = "dagger-hilt"}
+dagger-hilt-kapt = {group = "com.google.dagger", name ="hilt-android-compiler", version.ref = "dagger-hilt"}
+
+room-runtime = {group = "androidx.room", name ="room-runtime" , version.ref = "room"}
+room-ktx = {group = "androidx.room", name ="room-ktx" , version.ref = "room"}
+room-kapt = {group = "androidx.room", name ="room-compiler", version.ref = "room"}
+
+retrofit-api = {group="com.squareup.retrofit2", name="retrofit", version.ref = "retrofit-api"}
+retrofit-gsonconverter = {group="com.squareup.retrofit2", name="converter-gson", version.ref = "retrofit-api"}
+okhttp3 = {group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okhttp3"}
+okhttpprofiler = {group = "com.localebro", name = "okhttpprofiler", version.ref = "okhttpprofiler"}
+
+glide = {group = "com.github.bumptech.glide", name = "glide", version.ref = "glide"}
+glide-compiler = {group = "com.github.bumptech.glide", name = "compiler", version.ref = "glide"}
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+
+livedata-ktx = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "lifecycle-runtime-ktx" }
+viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycle-runtime-ktx" }
+activity-ktx = { group = "androidx.activity", name = "activity-ktx", version.ref = "activity-ktx" }
+
+recyclerview = {group = "androidx.recyclerview", name= "recyclerview", version.ref = "recyclerview"}
+cardview = {group = "androidx.cardview", name = "cardview", version.ref = "cardview"}
+
+[plugins]
+com-android-application = { id = "com.android.application", version.ref = "agp" }
+org-jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "org-jetbrains-kotlin-android" }
+org-jetbrains-kotlin-kapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "org-jetbrains-kotlin-android" }
+com-google-dagger-hilt = { id = "com.google.dagger.hilt.android", version.ref = "dagger-hilt" }
+com-android-library = { id = "com.android.library", version.ref = "agp" }
+
+[bundles]
+
